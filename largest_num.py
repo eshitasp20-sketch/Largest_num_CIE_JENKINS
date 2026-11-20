@@ -12,4 +12,4 @@ if __name__ == "__main__":
     num2 = sys.argv[2]
     num3 = sys.argv[3]
 
-    print("Largest number is ", largest_num())
+    print("Largest number is ", largest_num(21,24,16))
