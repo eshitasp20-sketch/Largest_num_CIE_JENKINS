@@ -8,8 +8,8 @@ def largest_num(num1,num2,num3):
         print("num3 is Largest")
 
 if __name__ == "__main__":
-    num1 = sys.argv[1]
-    num2 = sys.argv[2]
-    num3 = sys.argv[3]
+    num1 = int(sys.argv[1])
+    num2 = int(sys.argv[2])
+    num3 = int(sys.argv[3])
 
-    print("Largest number is ", largest_num(21,24,16))
+    print("Largest number is ", largest_num())
